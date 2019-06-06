@@ -21,7 +21,7 @@ public class Class1Basics {
 		driver.get("https:\\www.facebook.com");
 		driver.manage().window().maximize();
 		
-				/*driver.findElement(By.xpath("//*[@id='email']")).sendKeys("sade678@yahoo.com");
+		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("sade678@yahoo.com");
 		System.out.println(driver.findElement(By.xpath("//*[@id=\'content\']/div/div/div/div/div[2]/h2")).getText());
 		driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("ishita2007");
 		driver.findElement(By.xpath("//*[@id=\"facebook\"]/body")).click();
@@ -31,27 +31,25 @@ public class Class1Basics {
 		driver.findElement(By.xpath("//*[@id='u_0_h']")).sendKeys("selenium1@gmail.com");
 		driver.findElement(By.xpath("//*[@id=\'u_0_k\']")).sendKeys("selenium1@gmail.com");
 		driver.findElement(By.xpath("//*[@id=\"u_0_o\"]")).sendKeys("java2019");
-		Select s=new Select(driver.findElement(By.id("month")));
-		s.selectByValue("12");
-		Select d= new Select(driver.findElement(By.id("day")));
-		d.selectByValue("10");
-		Select m= new Select(driver.findElement(By.id("year")));
-			m.selectByValue("1975");
-			driver.findElement(By.cssSelector("input[id='u_0_a']")).click();
-			driver.findElement(By.xpath("//*[@id=\'u_0_u\']")).click();
+		Select month=new Select(driver.findElement(By.id("month")));
+		month.selectByValue("12");
+		Select day= new Select(driver.findElement(By.id("day")));
+		day.selectByVisibleText("10");
+		Select year= new Select(driver.findElement(By.id("year")));
+			year.selectByValue("1975");
+			//driver.findElement(By.cssSelector("input[id='u"
+//					+ "_0_a']")).click();
+			//driver.findElement(By.xpath("//*[@id=\'u_0_u\']")).click();
+			
+			 /*driver.findElement(By.name("firstname")).click();
+		        driver.findElement(By.name("firstname")).clear();
+		        driver.findElement(By.name("firstname")).sendKeys("Ashif");*/
+	
+			
+			
+			driver.close();
 		
-		//driver.close();*/
 		
-		 List<WebElement> allLinks= driver.findElements(By.tagName("a"));
-	        
-	        System.out.println(driver.findElement(By.xpath("//*[@id='js_0']/ul/li[1]/a")).getText());
-	        System.out.println(allLinks.size());
-	        List<String> txtLinks= new ArrayList<>();
-	        for(int i=0;i<allLinks.size();i++) {
-	            txtLinks.add(allLinks.get(i).getText());
-	            System.out.println(txtLinks.get(i));
-	        
-	        
 		
 		
 		//driver.get("https:\\www.ballooningnesteggs.com");
@@ -62,5 +60,5 @@ public class Class1Basics {
 	}
      }
 	
-}	
+	
 
