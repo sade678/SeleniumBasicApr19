@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10061" started-at="2019-05-26T20:00:54Z" finished-at="2019-05-26T20:01:04Z">
+  <suite name="Default suite" duration-ms="17642" started-at="2019-06-09T18:02:10Z" finished-at="2019-06-09T18:02:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10061" started-at="2019-05-26T20:00:54Z" finished-at="2019-05-26T20:01:04Z">
-      <class name="seleniumBasic.Class1Basics">
-        <test-method status="PASS" signature="setup()[pri:0, instance:seleniumBasic.Class1Basics@36d4b5c]" name="setup" duration-ms="10045" started-at="2019-05-26T16:00:54Z" finished-at="2019-05-26T16:01:04Z">
+    <test name="Default test" duration-ms="17642" started-at="2019-06-09T18:02:10Z" finished-at="2019-06-09T18:02:27Z">
+      <class name="seleniumBasic.BloomingdalesCreateAccount">
+        <test-method status="PASS" signature="setup()[pri:0, instance:seleniumBasic.BloomingdalesCreateAccount@36d4b5c]" name="setup" duration-ms="17621" started-at="2019-06-09T14:02:10Z" finished-at="2019-06-09T14:02:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-      </class> <!-- seleniumBasic.Class1Basics -->
+      </class> <!-- seleniumBasic.BloomingdalesCreateAccount -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -26,11 +26,13 @@ public class Class1Basics {
 		driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("ishita2007");
 		driver.findElement(By.xpath("//*[@id=\"facebook\"]/body")).click();
 		Thread.sleep(2000l);
+		
 		driver.findElement(By.cssSelector("#u_0_c")).sendKeys("Shaju");
 		driver.findElement(By.cssSelector("#u_0_e")).sendKeys("Rah");
 		driver.findElement(By.xpath("//*[@id='u_0_h']")).sendKeys("selenium1@gmail.com");
 		driver.findElement(By.xpath("//*[@id=\'u_0_k\']")).sendKeys("selenium1@gmail.com");
 		driver.findElement(By.xpath("//*[@id=\"u_0_o\"]")).sendKeys("java2019");
+		
 		Select month=new Select(driver.findElement(By.id("month")));
 		month.selectByValue("12");
 		Select day= new Select(driver.findElement(By.id("day")));
