@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="seleniumBasic.BloomingdalesCreateAccount">
+      <class name="seleniumBasic.Find_Link$Class1Basics">
         <methods>
           <include name="setup"/>
         </methods>
-      </class> <!-- seleniumBasic.BloomingdalesCreateAccount -->
+      </class> <!-- seleniumBasic.Find_Link$Class1Basics -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
